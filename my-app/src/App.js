@@ -1,15 +1,19 @@
-import React, { Component } from 'react';
-import Placeholder from './components/Placeholder/index';
+import React from 'react';
+import SideBar from './components/sidebar';
+import Navbar from './components/Navbar/index';
+
+
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App-site">
-        <Placeholder />
+export default function App() {
+  return (
+    <div id="App">
+      <Navbar />
+      <SideBar />
+      <div id="page-wrap">
+        <h1>AppDividend</h1>
+        <h2>Check out our tutorials the side menubar</h2>
       </div>
-    );
-  }
+    </div>
+  );
 }
-
-export default App;
