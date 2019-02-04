@@ -7,7 +7,10 @@ export class navbar extends Component {
   render() {
     return (
       <div>
-          <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+          <Navbar collapseOnSelect expand="lg"
+          variant="dark"
+          style={navStyle}
+          >
   <Navbar.Brand style={brandStyle} href="#home">Zac Seewald</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
@@ -38,6 +41,12 @@ export class navbar extends Component {
 
 export default navbar
 
+const navStyle = {
+  background: "#26C6C4",
+  borderBottom: "2px solid #D54C47",
+}
 const brandStyle = {
-  color: "yellow"
+  color: "white",
+  fontSize: "30px",
+  fontWeight: "bold",
 }

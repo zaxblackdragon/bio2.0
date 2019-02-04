@@ -43,43 +43,47 @@ body {
 #page-wrap {
   text-align: center;
   overflow: auto;
+  margin-left: 65px;
 }
-
+/* link items */
 .bm-item {
   display: inline-block;
   text-decoration: none;
   margin-bottom: 10px;
-  color: #d1d1d1;
+  color: pink;
   transition: color 0.2s;
 }
-
+/* hover link cover */
 .bm-item:hover {
-  color: white;
+  color: orange;
 }
-
+/* button position */
 .bm-burger-button {
-  position: fixed;
-  width: 36px;
+  position: relative;
+  width: 20px;
   height: 30px;
-  left: 36px;
-  top: 76px;
+  left: 20px;
+  top: 26px;
 }
 
 .bm-burger-bars {
-  background: magenta;
+  background: #D54C47;
+  border-radius: 4px;
 }
-
+/* Close x button */
 .bm-cross-button {
   height: 24px;
   width: 24px;
+  background: rgb(39, 39, 39);
+  border-radius: 20px;
 }
 
 .bm-cross {
-  background: #bdc3c7;
+  background: rgb(138, 138, 138);
 }
-
+/* side menu body */
 .bm-menu {
-  background: #373a47;
+  background: #D54C47;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
