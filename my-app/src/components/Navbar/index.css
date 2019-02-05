@@ -1,0 +1,40 @@
+
+
+.navbar a {
+    position: relative;
+    color: rgb(78, 78, 78);
+}
+.navbar a:hover {
+    color: #D54C47 !important;
+    cursor: pointer;
+}
+.dropdown-item a {
+    padding-left: 50px;
+}
+
+.dropdown-toggle {
+    padding-left: 16px;
+}
+.dropdown-menu a:hover {
+    background: #26C6C4;
+}
+.dropdown-menu {
+    background-image: linear-gradient(to bottom, #26C6C4, white);
+    border: 3px solid #26C6C4;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.dropdown-divider {
+    border: .5px solid #D54C47;
+}
+.navbar-toggler-icon {
+background: rgb(27, 143, 141);
+border: 2px solid rgb(47, 245, 242);
+border-radius: 4px;
+}
+.navbar-toggler {
+    background: rgb(27, 143, 141);
+    border-radius: 8px;
+}

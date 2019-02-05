@@ -50,12 +50,13 @@ body {
   display: inline-block;
   text-decoration: none;
   margin-bottom: 10px;
-  color: pink;
+  color: #D54C47;
   transition: color 0.2s;
+  font-size: 24px;
 }
 /* hover link cover */
 .bm-item:hover {
-  color: orange;
+  color: pink;
 }
 /* button position */
 .bm-burger-button {
@@ -83,7 +84,9 @@ body {
 }
 /* side menu body */
 .bm-menu {
-  background: #D54C47;
+  /* background-image: linear-gradient(to right, #26C6C4 60%, grey); */
+  /* background: #D54C47; */
+  background:  #26C6C4;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
