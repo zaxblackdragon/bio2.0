@@ -85,10 +85,12 @@ body {
 /* side menu body */
 .bm-menu {
   /* background-image: linear-gradient(to right, #26C6C4 60%, grey); */
+  background: rgb(60, 60, 60);
   /* background: #D54C47; */
-  background:  #26C6C4;
+  /* background:  #26C6C4; */
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
+  width: 100%;
 }
 
 .bm-morph-shape {
