@@ -38,7 +38,7 @@ const containerStyle = {
   marginLeft: -15,
   backgroundColor: "#26C6C4",
   height: "100vh",
-  position: "fixed",
+  position: "absolute",
   left: "0px",
   width: "80px",
   opacity: "0.9",
