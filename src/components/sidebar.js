@@ -4,41 +4,37 @@ import { slide as Menu } from 'react-burger-menu';
 export default props => {
 
   return (
-    <div className="container" style={containerStyle}>
-    <Menu>
+   
+    <Menu style={containerStyle}>
       <a className="menu-item" href="/">
-        Home
+        Tech List
       </a>
 
-      <a className="menu-item" href="/art">
-        Art
+      <a className="menu-item" href="/design">
+       Wireframes/UX
       </a>
 
-      <a className="menu-item" href="/angular">
-        Angular
+      <a className="menu-item" href="/#">
+        Photography
       </a>
 
-      <a className="menu-item" href="/react">
-        React
+      <a className="menu-item" href="/fine_art">
+        Fine Art
       </a>
 
-      <a className="menu-item" href="/vue">
-        Vue
-      </a>
-
-      <a className="menu-item" href="/node">
-        Node
+      <a className="menu-item" href="/#">
+        Companies
       </a>
     </Menu>
-    </div>
+    
   );
 };
 
 const containerStyle = {
-  marginLeft: -15,
-  backgroundColor: "#26C6C4",
+  // marginLeft: -15,
+  // backgroundColor: "#26C6C4",
   height: "100vh",
-  position: "absolute",
+  position: "relative",
   left: "0px",
   width: "80px",
   opacity: "0.9",

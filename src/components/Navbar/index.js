@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import gitLogo from '../../images/githubLogo.png';
+import linkedInLogo from '../../images/linkedinLogo.png';
 import "./index.css";
 
 export class navbar extends Component {
@@ -16,7 +18,7 @@ export class navbar extends Component {
             <Nav.Link bsPrefix="navbar" href="/">
               Home
               </Nav.Link>
-              <Nav.Link bsPrefix="navbar" href="/res">
+              <Nav.Link bsPrefix="navbar" href="/about">
                About
               </Nav.Link>
               <Nav.Link bsPrefix="navbar" href="/contact">
@@ -44,10 +46,10 @@ export class navbar extends Component {
             </Nav>
             <Nav>
               <Nav.Link bsPrefix="navbar" target="_blank" href="https://github.com/zaxblackdragon">
-               Github
+              <img className="github" src={gitLogo} height="40px" alt="github" />
               </Nav.Link>
               <Nav.Link bsPrefix="navbar" eventKey={2} target="_blank" href="https://www.linkedin.com/in/zacseewald/">
-                LinkedIn
+              <img className="linkedin" src={linkedInLogo} height="40px" />
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

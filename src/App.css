@@ -43,7 +43,7 @@ body {
 #page-wrap {
   text-align: center;
   overflow: auto;
-  margin-left: 65px;
+  /* margin-left: 65px; */
 }
 /* link items */
 .bm-item {
