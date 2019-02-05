@@ -45,11 +45,11 @@ export class navbar extends Component {
               </NavDropdown>
             </Nav>
             <Nav>
-              <Nav.Link bsPrefix="navbar" target="_blank" href="https://github.com/zaxblackdragon">
-              <img className="github" src={gitLogo} height="40px" alt="github" />
-              </Nav.Link>
               <Nav.Link bsPrefix="navbar" eventKey={2} target="_blank" href="https://www.linkedin.com/in/zacseewald/">
               <img className="linkedin" src={linkedInLogo} height="40px" />
+              </Nav.Link>
+              <Nav.Link bsPrefix="navbar" target="_blank" href="https://github.com/zaxblackdragon">
+              <img className="github" src={gitLogo} height="40px" alt="github" />
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
