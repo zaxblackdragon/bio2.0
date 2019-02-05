@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
-import { css } from 'glamor';
 import "./index.css";
 
 
@@ -22,7 +21,7 @@ export class navbar extends Component {
       <Nav.Link 
       bsPrefix="navbar"
       href="#pricing">Pricing</Nav.Link>
-      <NavDropdown bsPrefix="dropdown-toggle" title="Dropdown" id="collasible-nav-dropdown">
+      <NavDropdown bsPrefix="dropdown-toggle" title="THUNDER" id="collasible-nav-dropdown">
         <NavDropdown.Item 
         bsPrefix="dropdown-item"
         href="#action/3.1">Action</NavDropdown.Item>

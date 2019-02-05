@@ -1,17 +1,19 @@
-
-
 .navbar a {
     position: relative;
-    color: rgb(78, 78, 78);
+    /* color: rgb(78, 78, 78); */
+    color:  #D54C47;
 }
 .navbar a:hover {
-    color: #D54C47 !important;
+    /* color: #D54C47 !important; */
+    color: rgb(47, 245, 242) !important;
     cursor: pointer;
+}
+.dropdown {
+    margin-top: 8px;
 }
 .dropdown-item a {
     padding-left: 50px;
 }
-
 .dropdown-toggle {
     padding-left: 16px;
 }
@@ -20,7 +22,7 @@
 }
 .dropdown-menu {
     background-image: linear-gradient(to bottom, #26C6C4, white);
-    border: 3px solid #26C6C4;
+    border: 3px solid transparent;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-left-radius: 0px;
