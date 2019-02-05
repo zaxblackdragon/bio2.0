@@ -10,8 +10,8 @@ export default props => {
         Home
       </a>
 
-      <a className="menu-item" href="/laravel">
-        Laravel
+      <a className="menu-item" href="/art">
+        Art
       </a>
 
       <a className="menu-item" href="/angular">
