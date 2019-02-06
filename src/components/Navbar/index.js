@@ -7,7 +7,7 @@ import "./index.css";
 export class navbar extends Component {
   render() {
     return (
-      <div>
+      <div style={{ position: "fixed", width: "100vw", zIndex: "1200",  }}>
         <Navbar collapseOnSelect expand="lg" variant="dark" style={navStyle}>
           <Navbar.Brand style={brandStyle} href="/">
             Zac Seewald

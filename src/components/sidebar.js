@@ -4,7 +4,7 @@ import { slide as Menu } from 'react-burger-menu';
 export default props => {
 
   return (
-   
+   <div style={{  height: "0px", zIndex: "1", }}>
     <Menu style={containerStyle}>
       <a className="menu-item" href="/">
         Tech List
@@ -18,7 +18,7 @@ export default props => {
         Photography
       </a>
 
-      <a className="menu-item" href="/fine_art">
+      <a className="menu-item" href="/#">
         Fine Art
       </a>
 
@@ -26,7 +26,7 @@ export default props => {
         Companies
       </a>
     </Menu>
-    
+    </div>
   );
 };
 
@@ -38,6 +38,7 @@ const containerStyle = {
   left: "0px",
   width: "80px",
   opacity: "0.9",
+  zIndex: "1",
 }
 
 

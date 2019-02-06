@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin-top: 0px;
 }
 
 .App-logo {
@@ -43,28 +44,35 @@ body {
 #page-wrap {
   text-align: center;
   overflow: auto;
-  /* margin-left: 65px; */
+}
+.bm-menu-wrap {
+  z-index: 1;
 }
 /* link items */
 .bm-item {
   display: inline-block;
   text-decoration: none;
   margin-bottom: 10px;
-  color: #D54C47;
+  color: pink;
   transition: color 0.2s;
   font-size: 24px;
+  font-weight: bolder;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 /* hover link cover */
 .bm-item:hover {
-  color: pink;
+  color: red;
 }
 /* button position */
 .bm-burger-button {
-  position: relative;
-  width: 20px;
+  position: fixed;
+  z-index: 0;
+  width: 30px;
   height: 30px;
   left: 20px;
-  top: 26px;
+  top: 50px;
+  margin-top: 40px;
+  display: flex;
 }
 
 .bm-burger-bars {
@@ -73,10 +81,7 @@ body {
 }
 /* Close x button */
 .bm-cross-button {
-  height: 24px;
-  width: 24px;
-  background: rgb(39, 39, 39);
-  border-radius: 20px;
+  display: none;
 }
 
 .bm-cross {
@@ -84,17 +89,15 @@ body {
 }
 /* side menu body */
 .bm-menu {
-  /* background-image: linear-gradient(to right, #26C6C4 60%, grey); */
-  background: rgb(60, 60, 60);
-  /* background: #D54C47; */
-  /* background:  #26C6C4; */
+  background: black;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
-  width: 100%;
+  opacity: 0.8;
+  margin-top: 70px;
 }
 
 .bm-morph-shape {
-  fill: #373a47;
+  fill: #61dafb;
 }
 
 .bm-item-list {
